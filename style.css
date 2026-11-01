@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Memastikan footer selalu di bawah */
+    background-color: #f8f9fa; /* Warna latar abu-abu sangat muda */
+}
+
+/* Sedikit bayangan ekstra saat hover pada card */
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
